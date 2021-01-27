@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/corona/local.properties
+/corona/.idea/caches
+/corona/.idea/libraries
+/corona/.idea/modules.xml
+/corona/.idea/workspace.xml
+/corona/.idea/navEditor.xml
+/corona/.idea/assetWizardSettings.xml
+.DS_Store
+/corona/build
+/corona/captures
+.externalNativeBuild
+.cxx
+local.properties
