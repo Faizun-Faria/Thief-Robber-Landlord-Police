@@ -5,33 +5,33 @@
 ```
 Type your name and start the game
 ```
-![Game](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/GameVideo.gif)
+![Game](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/tree/initial_version/Preview/GameVideo.gif)
 -----------------------------------
 
 
 -----------------------------------
 **Successfully Caught The Robber**
 
-![Successfully Caught The Robber](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Caught_Robber.png)
+![Successfully Caught The Robber](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/tree/initial_version/Preview/Caught_Robber.png)
 -----------------------------------
 
 
 -----------------------------------
 **Failed to detect the Robber**
 
-![Failure](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Failure.png)
+![Failure](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/tree/initial_version/Preview/Failure.png)
 -----------------------------------
 
 
 -----------------------------------
 **Score after round 3**
 
-![Round03](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Round_03.png)
+![Round03](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/tree/initial_version/Preview/Round_03.png)
 -----------------------------------
 
 
 -----------------------------------
 **Final Score**
 
-![Final Score](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Final%20Score.png)
+![Final Score](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/tree/initial_version/Preview/Final%20Score.png)
 -----------------------------------
