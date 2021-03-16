@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "1082619346090",
+    "firebase_url": "https://employeelocation-20843.firebaseio.com",
+    "project_id": "employeelocation-20843",
+    "storage_bucket": "employeelocation-20843.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082619346090:android:282745f40f8e0e8b20a4d3",
+        "android_client_info": {
+          "package_name": "com.example.Task2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3zunjjGp-iqMwEn-uajRVxFdps1P899w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082619346090:android:773e506b8d7023c220a4d3",
+        "android_client_info": {
+          "package_name": "com.example.corona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082619346090-85th51489vjoa59jqk6lokon68kr75lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.corona",
+            "certificate_hash": "aea1054cc9fb1d4b5d48c7662f00be91db8a93f2"
+          }
+        },
+        {
+          "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3zunjjGp-iqMwEn-uajRVxFdps1P899w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082619346090:android:780f07b5c275e12f20a4d3",
+        "android_client_info": {
+          "package_name": "com.faizun.thiefpolicegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3zunjjGp-iqMwEn-uajRVxFdps1P899w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082619346090:android:75a9411d502ae52f20a4d3",
+        "android_client_info": {
+          "package_name": "com.faizun.thiefrobberlandlordpolice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3zunjjGp-iqMwEn-uajRVxFdps1P899w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082619346090-6hfku34n4qtqcbvpc0earpclca1rro9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

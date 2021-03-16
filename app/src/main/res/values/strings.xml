@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Thief Robber Landlord Police</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="play">START GAME</string>
+    <string name="title">Thief Robber Landlord Police</string>
+
+    <string name="landlord_msg">Congratulation! You\'re Landlord. Click \'Next Round\'.</string>
+    <string name="police_thief_msg">You\'re a policeman. Try to catch the thief.</string>
+    <string name="police_robber_msg">You\'re a policeman. Try to catch the robber.</string>
+    <string name="robber_police_safe_msg">You\'re a robber and the policeman is trying to catch the thief. You\'re safe.</string>
+    <string name="robber_police_danger_msg">You\'re a robber and the policeman is trying to catch you. You\'re in danger.</string>
+    <string name="thief_police_danger_msg">You\'re a thief and the policeman is trying to catch you. You\'re in danger.</string>
+    <string name="thief_police_safe_msg">You\'re a thief and the policeman is trying to catch the robber. You\'re safe.</string>
+    <string name="success_caught_thief_msg">You have successfully caught the thief</string>
+    <string name="fail_caugth_thief_msg">You aren\'t smart enough to catch the thief</string>
+    <string name="success_caugth_robber_msg">You have successfully caught the robber</string>
+    <string name="fail_caught_robber_msg">You aren\'t smart enough to catch the robber</string>
+    <string name="next_round">Next Round</string>
+    <string name="congrats_msg">Congratulations!!!</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="winner">winner!</string>
+    <string name="next_game">Next Game</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">চোর ডাকাত বাবু পুলিশ</string>
+    <string name="language">ভাষা</string>
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+    <string name="enter_name">আপনার নাম প্রবেশ করান</string>
+    <string name="play">খেলা শুরু করুন</string>
+    <string name="title">চোর ডাকাত বাবু পুলিশ</string>
+    <string name="landlord_msg">অভিনন্দন! আপনি জমিদার।</string>
+    <string name="police_thief_msg">আপনি পুলিশ। চোর ধরার চেষ্টা করুন।</string>
+    <string name="police_robber_msg">আপনি পুলিশ। ডাকাত ধরার চেষ্টা করুন।</string>
+    <string name="robber_police_safe_msg">আপনি ডাকাত। পুলিশ চোর ধরার চেষ্টা করতেছে। আপনি নিরাপদ।</string>
+    <string name="robber_police_danger_msg">আপনি ডাকাত। পুলিশ আপনাকে ধরার চেষ্টা করতেছে। আপনি অনিরাপদ।</string>
+    <string name="thief_police_danger_msg">আপনি চোর। পুলিশ আপনাকে ধরার চেষ্টা করতেছে। আপনি অনিরাপদ।</string>
+    <string name="thief_police_safe_msg">আপনি চোর। পুলিশ ডাকাত ধরার চেষ্টা করতেছে। আপনি নিরাপদ।</string>
+    <string name="success_caught_thief_msg">আপনি সফলভাবে চোর ধরেছেন।</string>
+    <string name="fail_caugth_thief_msg">আপনি চোর ধরতে ব্যর্থ হয়েছেন।</string>
+    <string name="fail_caught_robber_msg">আপনি ডাকাত ধরতে ব্যর্থ হয়েছেন।</string>
+    <string name="success_caugth_robber_msg">আপনি সফলভাবে ডাকাত ধরেছেন।</string>
+    <string name="next_round">পরবর্তী রাউন্ড</string>
+    <string name="congrats_msg">অভিনন্দন</string>
+    <string name="leaderboard">লিডারবোর্ড</string>
+    <string name="winner">বিজয়ী</string>
+    <string name="next_game">পরবর্তী খেলা</string>
+
+</resources>
