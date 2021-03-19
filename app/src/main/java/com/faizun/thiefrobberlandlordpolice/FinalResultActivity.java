@@ -164,7 +164,6 @@ public class FinalResultActivity extends AppCompatActivity {
                         fourth_score.setText(board.getSum4()+"");
                     }
                 } catch (Exception e) {
-                    System.out.println("\n\n\n" + e.getMessage() + "\n\n\n\n");
                     Toast.makeText(FinalResultActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 }
             }

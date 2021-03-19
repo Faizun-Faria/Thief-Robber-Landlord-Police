@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +30,7 @@ public class GameActivity extends AppCompatActivity {
     protected ImageView P3;
     protected ImageView P4;
     protected Button  next;
+    protected LinearLayout roundInfoLayout;
     protected TextView roundNo;
     protected TextView textView;
     protected Integer [] new_score = {-1,-1,-1,-1};
@@ -48,6 +50,7 @@ public class GameActivity extends AppCompatActivity {
         P2 = (ImageView) findViewById(R.id.player2);
         P3 = (ImageView) findViewById(R.id.player3);
         P4 = (ImageView) findViewById(R.id.player4);
+        roundInfoLayout = findViewById(R.id.round_info_layout);
         roundNo =  (TextView) findViewById(R.id.round_no);
         textView = (TextView) findViewById(R.id.textView);
         next = (Button) findViewById(R.id.next);
@@ -134,7 +137,7 @@ public class GameActivity extends AppCompatActivity {
                     Toast.makeText(GameActivity.this, getString(R.string.success_caught_thief_msg), Toast.LENGTH_SHORT).show();
                 }else{
                     new_score[0] = 0;
-                    Toast.makeText(GameActivity.this, getString(R.string.fail_caugth_thief_msg), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GameActivity.this, getString(R.string.fail_caught_robber_msg), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -155,7 +158,7 @@ public class GameActivity extends AppCompatActivity {
                     Toast.makeText(GameActivity.this, getString(R.string.success_caugth_robber_msg), Toast.LENGTH_SHORT).show();
                 }else{
                     new_score[0] = 0;
-                    Toast.makeText(GameActivity.this, getString(R.string.fail_caught_robber_msg), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GameActivity.this, getString(R.string.fail_caugth_thief_msg), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -196,8 +199,19 @@ public class GameActivity extends AppCompatActivity {
                     if (msg == "") {
                         msg = "Round :"+round_no;
                         roundNo.setText(msg);
+                        List<Integer> intList = Arrays.asList(mark);
+                        Collections.shuffle(intList);
+                        intList.toArray(mark);
+                        setRole(mark);
+                        setMessage();
+                        new_score[0] = mark[0];
+                        new_score[1] = mark[1];
+                        new_score[2] = mark[2];
+                        new_score[3] = mark[3];
+                        roundInfoLayout.setVisibility(View.VISIBLE);
+                        if(P1 == police) isPolice();
+                        else isLandlordRobberThief();
                     }
-
                 }
                 @Override
                 public void onCancelled(DatabaseError databaseError) {
@@ -245,24 +259,6 @@ public class GameActivity extends AppCompatActivity {
                     }
                 }
             });
-
-            List<Integer> intList = Arrays.asList(mark);
-            Collections.shuffle(intList);
-            intList.toArray(mark);
-
-            setRole(mark);
-
-
-            setMessage();
-            new_score[0] = mark[0];
-            new_score[1] = mark[1];
-            new_score[2] = mark[2];
-            new_score[3] = mark[3];
-
-            if(P1 == police) isPolice();
-            else isLandlordRobberThief();
-
-
 
         } catch (Exception e) {
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
