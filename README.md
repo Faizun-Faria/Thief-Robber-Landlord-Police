@@ -30,26 +30,26 @@ See score updates
 -----------------------------------
 **Successfully Caught The Robber**
 
-![Successfully Caught The Robber](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Caught_Robber.png)
+![Successfully Caught The Robber](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/caught_robber.png)
 -----------------------------------
 
 
 -----------------------------------
-**Failed to detect the Robber**
+**Successfully Detected The Thief**
 
-![Failure](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Failure.png)
+![Failure](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/caught_thief.png)
 -----------------------------------
 
 
 -----------------------------------
 **Score after round 3**
 
-![Round03](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Round_03.png)
+![Round03](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/round%203.png)
 -----------------------------------
 
 
 -----------------------------------
 **Final Score**
 
-![Final Score](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/Final%20Score.png)
+![Final Score](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/final.png)
 -----------------------------------
