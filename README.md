@@ -5,7 +5,7 @@
 ```
 Type your name and start the game
 ```
-![Game](https://github.com/Faizun-Faria/Thief_Police_Game/blob/main/Preview/GameVideo.gif)
+![Game](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/gif_english.gif)
 -----------------------------------
 
 
